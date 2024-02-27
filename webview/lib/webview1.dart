@@ -18,8 +18,7 @@ class Webviewstate extends State<Webview1> {
       withZoom: true,
       withJavascript: true,
       withLocalStorage: true,
-      initialChild: Center(child: Container(child: Text("Loading"))), //not use anymore of course use center
-      bottomNavigationBar:Padding(
+      initialChild: Center(child: Container(child: Text("Loading"))), //jotkon projonto load hobe na ata dekahbe
         padding:EdgeInsets.all(10),
         child: Text("this is footer"),
          ) ,
