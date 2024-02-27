@@ -46,7 +46,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 },child: Text("web1" ,style: TextStyle(color: Colors.white),),
                 color: Colors.amber[700],
                 padding: EdgeInsets.symmetric(horizontal: 70, vertical: 10),
-                )
+                ),
+                SizedBox(height: 10,),
+                  MaterialButton(onPressed: (){
+
+                },child: Text("web2" ,style: TextStyle(color: Colors.white),),
+                color: Colors.amber[700],
+                padding: EdgeInsets.symmetric(horizontal: 70, vertical: 10),
+                ),
               ]
               ),
           ),
