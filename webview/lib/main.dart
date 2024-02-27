@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:webview/webview1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,6 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 MaterialButton(onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Webview1()));
 
                 },child: Text("web1" ,style: TextStyle(color: Colors.white),),
                 color: Colors.amber[700],
