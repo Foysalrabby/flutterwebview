@@ -9,16 +9,19 @@ class Webview1 extends StatefulWidget {
 class Webviewstate extends State<Webview1> {
   @override
   Widget build(BuildContext context) {
+  
     return WebviewScaffold(
+      
       url: "https://www.worldbank.org/en/country/bangladesh",
       appBar: AppBar(
         title: Text("webview 1"),
         backgroundColor: Colors.amber[700],
       ),
       withZoom: true,
+      scrollBar: true,
       withJavascript: true,
       withLocalStorage: true,
-      initialChild: Center(child: Container(child: Text("Loading"))), //not use anymore of course use center
+      initialChild: Center(child: Container(child: Text("Loading"))), 
       bottomNavigationBar:Padding(
         padding:EdgeInsets.all(10),
         child: Text("this is footer"),
