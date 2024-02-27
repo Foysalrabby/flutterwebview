@@ -15,6 +15,10 @@ class Webviewstate extends State<Webview1> {
         title: Text("webview 1"),
         backgroundColor: Colors.amber[700],
       ),
+      withZoom: true,
+      withJavascript: true,
+      withLocalStorage: true,
+
     );
   }
 }
