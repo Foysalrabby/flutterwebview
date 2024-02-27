@@ -23,6 +23,16 @@ class Webviewstate extends State<Webview1> {
         padding:EdgeInsets.all(10),
         child: Text("this is footer"),
          ) ,
+        persistentFooterButtons: [
+          CircleAvatar(
+            backgroundColor: Colors.amber[900],
+            child: Text("btn1"),
+          ),
+           CircleAvatar(
+            backgroundColor: Color.fromARGB(255, 70, 33, 5),
+            child: Text("btn2"),
+          ),
+        ],
     );
   }
 }
