@@ -18,7 +18,11 @@ class Webviewstate extends State<Webview1> {
       withZoom: true,
       withJavascript: true,
       withLocalStorage: true,
-
+      initialChild: Center(child: Container(child: Text("Loading"))), //not use anymore of course use center
+      bottomNavigationBar:Padding(
+        padding:EdgeInsets.all(10),
+        child: Text("this is footer"),
+         ) ,
     );
   }
 }
