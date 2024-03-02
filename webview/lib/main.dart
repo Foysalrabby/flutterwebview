@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
       ),
       //not make Slpash scrren use plagin animated_splash_screen: ^1.3.0
       home: AnimatedSplashScreen(
-        splash:Image.asset("assets/images/scanenr.gif") ,
-        //duration:5000
-        backgroundColor: Colors.amber.shade700,
-        splashTransition: SplashTransition.scaleTransition,
-        nextScreen:Webview2() ),
+          splash: Image.asset("assets/images/scanenr.gif"),
+          //duration:5000
+          backgroundColor: Colors.amber.shade700,
+          splashTransition: SplashTransition.scaleTransition,
+          nextScreen: Webview2()),
     );
   }
 }
